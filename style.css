@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #e5f5ef;
+    height: 100vh;
+    margin: 0;
+    align-items: center;
+     font-family: "Poppins", sans-serif;
+}
+.left-part{
+    
+    background-image: linear-gradient(20deg, #e5f5ef, #00ffcc);
+    padding: 20px;
+    
+   
+}
+.left-part img {
+    max-width: 315px;
+  }
+
+
+
+.right-part{
+    border-radius: 30px 0px 0px 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 70px;
+    flex-direction: column;
+}
+/* language */
+h6{
+    position: relative;
+    display:flex;
+    float: right;
+    margin-top: -20px; 
+}
+h6 svg{
+    color: #00ffcc;
+   
+}
+/* .google button */
+.google-btn{
+    color: rgb(0, 0, 0);
+    border-color:rgb(172, 163, 163);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    cursor: pointer;
+    font-size: 13px;
+}
+/* .facebook-btn */
+.facebook-btn{
+    color: rgb(0, 0, 0);
+    border-color:rgb(172, 163, 163);;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    cursor: pointer;
+    font-size: 13px;
+}
+svg{
+    margin-top: auto;
+}
+
+.or p{
+    position: relative;
+    margin-left: 40%;
+
+}
+/* form */
+.form{
+    padding: 0 40px;
+    box-sizing:border-box;
+
+}
+.text-field{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin:30px 0;
+
+
+}
+.text-field input{
+    width: 100%;
+    padding:0 5px;
+    height: 20px;
+    font-size: 16px;
+    border:none;
+    background: none;
+    outline: none;
+
+}
+.text-field label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+/* .create-account-btn */
+.create-account-btn button{
+    background-color: #00ffcc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 16px;
+    border-color:#00ffcc;
+    cursor: pointer;
+    
+}
+
+
